@@ -1,4 +1,4 @@
-﻿<Window x:Class="KaBalangay.About"
+<Window x:Class="KaBalangay.About"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -11,6 +11,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="326,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontWeight="Bold" FontSize="15"><Run Language="en-ph" Text="HELLO JUAN"/></TextBlock>
         <TextBlock x:Name="textLabel2" HorizontalAlignment="Left" Margin="326,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="10"><Run Language="en-ph" Text="Let's Start Connecting Today!"/></TextBlock>
         <Rectangle HorizontalAlignment="Left" Height="60" Fill="#F1E8E3" VerticalAlignment="Top" Width="500" Margin="300,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="340,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Century Gothic" FontWeight="Bold" FontSize="15"><Run Language="en-ph" Text="ABOUT"/></TextBlock>
         <Rectangle HorizontalAlignment="Center" Height="45" Fill="#F1E8E3" VerticalAlignment="Top" Width="800" Margin="0,388,0,0"/>
         <Ellipse HorizontalAlignment="Left" Height="30"  Margin="185,70,0,0" Stroke="Black" VerticalAlignment="Top" Width="30"/>
         <Image HorizontalAlignment="Left" Height="30" Margin="185,70,0,0" VerticalAlignment="Top" Width="30"/>
