@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|c:\\users\\tintin\\source\\repos\\ka-balangay-desk-app\\kabalangay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|c:\\users\\tintin\\source\\repos\\ka-balangay-desk-app\\kabalangay\\views\\navbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|solutionrelative:views\\navbarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|c:\\users\\tintin\\source\\repos\\ka-balangay-desk-app\\kabalangay\\views\\navbarview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6BB19E-3171-448C-8CDA-50332CBC693A}|KaBalangay.csproj|solutionrelative:views\\navbarview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -23,11 +36,53 @@
         },
         {
           "DockedWidth": 736,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavBarView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\Views\\NavBarView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\NavBarView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\Views\\NavBarView.xaml.cs",
+              "RelativeToolTip": "Views\\NavBarView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T16:46:45.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavBarView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\Views\\NavBarView.xaml",
+              "RelativeDocumentMoniker": "Views\\NavBarView.xaml",
+              "ToolTip": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\Views\\NavBarView.xaml",
+              "RelativeToolTip": "Views\\NavBarView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-08T16:46:29.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tintin\\source\\repos\\ka-balangay-desk-app\\KaBalangay\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T16:45:33.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

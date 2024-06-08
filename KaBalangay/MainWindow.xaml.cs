@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KaBalangay.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,9 +25,26 @@ namespace KaBalangay
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
+            // Implement your login logic here.
+            string username = UsernameTextBox.Text;
+            string password = PasswordBox.Password;
 
+            if (username == "admin" && password == "password") // Sample login check
+            {
+                // If login is successful, open the MainWindow
+                NavBarView navBarView = new NavBarView();
+                Application.Current.MainWindow = navBarView;
+                navBarView.Show();
+
+                // Close the login window
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password");
+            }
         }
     }
 }

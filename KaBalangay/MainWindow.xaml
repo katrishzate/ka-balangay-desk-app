@@ -5,17 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KaBalangay"
         mc:Ignorable="d"
-        Title="MainWindow" Background="#C4B095" Height="450" Width="800">
+        Title="MainWindow" Background="#C4B095" Height="650" Width="1200"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid x:Name="MainGrid">
-        <TextBlock Text="Step Forward, Connect and Cultivate" Margin="74,126,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="216" Height="18" FontFamily="Century Gothic" FontWeight="Bold" Foreground="White" />
-        <TextBlock Text="Enhance Your" Margin="74,160,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontSize="20" FontWeight="Bold" Foreground="White" />
-        <TextBlock Text="Community" Margin="74,195,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20" Foreground="White" />
-        <TextBlock Text="Management with" Margin="74,230,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20" Foreground="White" />
-        <TextBlock Text="KA’BALANGAY!" Margin="74,265,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontSize="20" Foreground="White" />
-        <Rectangle RadiusX="10" RadiusY="10" Fill="#FFFFfF" Margin="378,85,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="350" Height="250" />
-        <TextBlock TextAlignment="Center" Text="KA’BALANGAY" Margin="453,109,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="20" FontFamily="Century Gothic" FontWeight="Bold" FontSize="15" />
-        <TextBox x:Name="userId" HorizontalAlignment="Left" Background="#F1E8E3" Margin="453,153,0,0" TextWrapping="Wrap" Text="User ID" VerticalAlignment="Top" Width="200" Height="30" TextChanged="TextBox_TextChanged" TextAlignment="Center" FontFamily="Century Gothic" OpacityMask="Black"/>
-        <TextBox x:Name="userPassword" HorizontalAlignment="Left" Background="#F1E8E3" Margin="453,199,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="200" Height="30" TextChanged="TextBox_TextChanged" TextAlignment="Center" FontFamily="Century Gothic" OpacityMask="Black"/>
-        <Button Content="LOG IN" HorizontalAlignment="Left" Background="#2FAEFF" Margin="528,250,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBlock Text="Step Forward, Connect and Cultivate" Margin="214,219,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="216" Height="18" FontFamily="Century Gothic" FontWeight="Bold" Foreground="White" />
+        <TextBlock Text="Enhance Your" Margin="214,253,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontSize="20" FontWeight="Bold" Foreground="White" />
+        <TextBlock Text="Community" Margin="214,288,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20" Foreground="White" />
+        <TextBlock Text="Management with" Margin="214,323,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20" Foreground="White" />
+        <TextBlock Text="KA’BALANGAY!" Margin="214,358,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Height="30" FontFamily="Century Gothic" FontSize="20" Foreground="White" />
+        <Rectangle RadiusX="10" RadiusY="10" Fill="#FFFFfF" Margin="590,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="490" Height="394" />
+        <TextBlock TextAlignment="Center" Text="KA’BALANGAY" Margin="694,179,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="282" Height="31" FontFamily="Century Gothic" FontWeight="Bold" FontSize="20" />
+        <Border VerticalAlignment="Center" HorizontalAlignment="Left" Margin="634,0,0,0" Height="342" Width="388" Background="#FFFFFF" CornerRadius="30">
+            <StackPanel>
+                <TextBlock Text="KA'BALANGAY" FontSize="30" Margin="0,50,0,20" FontFamily="Franklin Gothic Demi" TextAlignment="Center"/>
+                <TextBox Name="UsernameTextBox" Width="240" Margin="0,0,0,10" Background="#f1e8e3" Height="31">
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="TextBox">
+                                        <Border BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        Background="{TemplateBinding Background}" 
+                                        CornerRadius="10">
+                                            <!-- Set the corner radius here -->
+                                            <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center" Margin="5 0 0 0"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+                <PasswordBox Name="PasswordBox" Width="240" Margin="0,0,0,20" Background="#f1e8e3" Height="31">
+                    <PasswordBox.Style>
+                        <Style TargetType="PasswordBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="PasswordBox">
+                                        <Border BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        Background="{TemplateBinding Background}" 
+                                        CornerRadius="10">
+                                            <!-- Set the corner radius here -->
+                                            <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center"  Margin="5 0 0 0"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </PasswordBox.Style>
+                </PasswordBox>
+                <Button Content="Login" Width="70" Height="32" Click="LoginButton_Click" Background="#2FAEFF" />
+            </StackPanel>
+        </Border>
+
     </Grid>
 </Window>
