@@ -1,0 +1,26 @@
+﻿<Window x:Class="KaBalangay.Views.NavBarView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KaBalangay.Views"
+        mc:Ignorable="d"
+        Title="NavBarView" Height="650" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Background="#C4B095" />
+        <StackPanel Grid.Column="0">
+            <Button x:Name="hmeButton" Background="#F1E8E3" Height="40" Width="150" Margin="0,100,0,5" Click="HomeButton_Click">Home</Button>
+            <Button x:Name="abtButton" Background="#F1E8E3" Height="40" Width="150" Margin="5" Click="AboutButton_Click">About</Button>
+            <Button x:Name="rgsButton" Background="#F1E8E3" Height="40" Width="150" Margin="5" Click="RegisterButton_Click">Register</Button>
+            <Button x:Name="srsButton" Background="#F1E8E3" Height="40" Width="150" Margin="5" Click="ServicesButton_Click">Services</Button>
+            <Button x:Name="lgoutButton" Background="#F1E8E3" Height="40" Width="150" Margin="0,200,0,0" Click="LogoutButton_Click">Logout</Button>
+        </StackPanel>
+        <ContentControl x:Name="MainContentControl" Grid.Column="1"/>
+    </Grid>
+</Window>

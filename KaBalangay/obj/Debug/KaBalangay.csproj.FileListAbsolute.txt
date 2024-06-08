@@ -20,3 +20,14 @@ C:\Users\katrish\source\repos\KaBalangay\obj\Debug\About.baml
 C:\Users\katrish\source\repos\KaBalangay\obj\Debug\Home.baml
 C:\Users\katrish\source\repos\KaBalangay\obj\Debug\Register.baml
 C:\Users\katrish\source\repos\KaBalangay\obj\Debug\Services.baml
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\KaBalangay.csproj.AssemblyReference.cache
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\About.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\Home.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\MainWindow.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\Register.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\Services.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\App.g.cs
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\KaBalangay_MarkupCompile.cache
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\KaBalangay_MarkupCompile.lref
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\KaBalangay.exe
+C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\obj\Debug\KaBalangay.pdb
