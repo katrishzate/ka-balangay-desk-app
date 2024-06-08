@@ -27,24 +27,30 @@ namespace KaBalangay
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            // Implement your login logic here.
+            Login();
+        }
+
+        private void Login()
+        {
             string username = UsernameTextBox.Text;
             string password = PasswordBox.Password;
 
-            if (username == "admin" && password == "password") // Sample login check
+            if (IsValidCredentials(username, password))
             {
-                // If login is successful, open the MainWindow
                 NavBarView navBarView = new NavBarView();
-                Application.Current.MainWindow = navBarView;
                 navBarView.Show();
-
-                // Close the login window
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Invalid username or password");
+                MessageBox.Show("Invalid username or password.");
             }
+        }
+
+        private bool IsValidCredentials(string username, string password)
+        {
+            // Replace with your actual validation logic
+            return username == "admin" && password == "password";
         }
     }
 }

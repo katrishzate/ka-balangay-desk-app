@@ -70,7 +70,9 @@ namespace KaBalangay.Views
 
         private void LoadLogoutView()
         {
-
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }
