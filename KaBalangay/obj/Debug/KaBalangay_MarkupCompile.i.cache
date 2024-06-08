@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Tintin\source\repos\ka-balangay-desk-app\KaBalangay\App.xaml
-5-2101879710
+9-546516965
 
-10-1667459370
+141502655033
 13-1310406943
-About.xaml;Home.xaml;MainWindow.xaml;Register.xaml;Services.xaml;
+About.xaml;Home.xaml;MainWindow.xaml;Register.xaml;Services.xaml;Views\AboutView.xaml;Views\HomeView.xaml;Views\RegisterView.xaml;Views\ServicesView.xaml;
 
-False
+True
 
